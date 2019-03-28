@@ -1,0 +1,88 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+.headermenu {
+    background-color: #630E15;
+    font-family: 'Ubuntu', sans-serif;
+    height: 200px;
+}
+
+.moisescameoh1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: #fff;
+}
+
+.flex-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+.submenu-portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#D8A345; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/*Dropdown menu*/
+  
+.dropdown {
+    position: inherit;
+    display: inline-flex;
+}
+.dropdown-child {
+    line-height: 10%;
+    display: none;
+    flex-direction: row;
+    align-content: inherit;
+    background-color: #630E15;
+    min-width: 200px;
+    font-size: 1rem;
+    margin-left: -17%;
+    
+}
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: flex;
+    float: left;
+    
+}
+.dropdown:hover .dropdown-child {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    float: left;
+}
+
+.dropdown-child a:hover {
+    color:#D8A345; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.footeritems {
+    background-color: #370000;
+    font-family: 'Ubuntu', sans-serif;
+    height: 200px;
+}
