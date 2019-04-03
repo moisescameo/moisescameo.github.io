@@ -6,6 +6,7 @@
     background-color: #630E15;
     font-family: 'Ubuntu', sans-serif;
     height: 200px;
+    width: 100%;
 }
 
 .moisescameoh1 {
@@ -82,7 +83,17 @@ a:hover
 }
 
 .footeritems {
+    position:absolute;
+    bottom:0;
+    width:100%;
     background-color: #370000;
     font-family: 'Ubuntu', sans-serif;
-    height: 200px;
+    height: 150px;
+}
+
+.socialmedia {
+    color: #fff;
+    justify-content: center;
+    flex-direction: row;
+    width: 50px;
 }
