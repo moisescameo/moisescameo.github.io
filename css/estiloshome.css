@@ -3,7 +3,7 @@
   }
 
 .headermenu {
-    background-color: #630E15;
+    background-color: #0E0A0A;
     font-family: 'Ubuntu', sans-serif;
     height: 200px;
     width: 100vw;
@@ -55,7 +55,7 @@ a:hover
     display: none;
     flex-direction: row;
     align-content: inherit;
-    background-color: #630E15;
+    background-color: #0E0A0A;
     min-width: 200px;
     font-size: 1rem;
     margin-left: -17%;
